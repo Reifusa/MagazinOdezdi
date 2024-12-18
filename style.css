@@ -1,0 +1,673 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('fonts/Inter-Bold.ttf') format('truetype');
+}
+
+a{
+    text-decoration: none;
+}
+  
+table{
+    border-collapse: collapse;
+}
+  
+td{
+    padding: 0px;
+}
+  
+body{
+    width: 100%;
+    margin: 0%;
+}
+
+.line {
+    width: 100%;
+    height: 109px;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+}
+  
+.sections {
+    display: flex;
+    align-items: center;
+    height: 47px;
+}
+
+.logotext{
+    width: 393px;
+    height: 47px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.profile{
+    width: 41px;
+    height: 38px;
+    flex-shrink: 0;
+    background: url(images/image5.png);
+    margin-left: 16px;
+}
+
+.rus{
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    background: url(images/image-2.png);
+    margin-left: 16px;
+}
+
+.arrow{
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    background: url(images/image-3.png);
+    margin-left: 0px;
+}
+
+.korz{
+    width: 42px;
+    height: 38px;
+    flex-shrink: 0;
+    background: url(images/image-4.png);
+    margin-left: 10px;
+}
+
+.zvezd{
+    width: 43px;
+    height: 38px;
+    flex-shrink: 0;
+    background: url(images/image-6.png);
+    margin-left: 10px;
+}
+
+.lup{
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    background: url(images/image-7.png);
+    margin-left: 600px;
+}
+
+.blackline {
+    width: 100%;
+    height: 9px;
+    flex-shrink: 0;
+    background: #000;
+    display: flex;
+    align-items: center;
+
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    height: 76px;
+}
+
+.diz{
+    width: 127px;
+    height: 39px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.odez{
+    
+    height: 39px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.serline{
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.30);
+    display: flex;
+    align-items: center;
+}
+
+.gradblock{
+    margin-top: 162px;
+    width: 100%;
+    height: 317px;
+    flex-shrink: 0;
+    background: linear-gradient(112deg, #A2C3F5 31.79%, #D5A9F5 49.63%, #F4DCBD 89.16%);
+    animation: gradient 1s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background: linear-gradient(36deg, #A2C3F5 31.79%, #D5A9F5 49.63%, #F4DCBD 89.16%);
+    }
+    10% {
+        background: linear-gradient(72deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    20% {
+        background: linear-gradient(108deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    30% {
+        background: linear-gradient(144deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    40% {
+        background: linear-gradient(180deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    50% {
+      background: linear-gradient(216deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    60% {
+        background: linear-gradient(252deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    70% {
+        background: linear-gradient(286deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    80% {
+        background: linear-gradient(322deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    90% {
+        background: linear-gradient(360deg,  #A2C3F5 32.00%, #D5A9F5 50.41%, #F4DCBD 91.8%);
+    }
+    100% {
+        background: linear-gradient(20deg, #A2C3F5 32.73%, #D5A9F5 51.41%, #F4DCBD 92.8%);
+    }
+  }
+
+.dvad{
+    padding-top: 60px;
+    color: #FFF;
+    font-family: K2D;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 410px;
+}
+
+.protz{
+    padding-top: 76px;
+    color: #FFF;
+    font-family: K2D;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.skid{
+    color: #FFF;
+    font-family: K2D;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 140px;
+}
+
+.deistv{
+    margin-left: 380px;
+    margin-top: 100px;
+    color: #FFF;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 493px;
+    text-align: center;
+}
+
+.pokup{
+    color: #FFF;
+    font-family: K2D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 1140px;
+}
+
+.giftblock{
+    width: 100%;
+    height: 490px;
+    flex-shrink: 0;
+    background: url(images/kandinsky-download-17023057979351.png);
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.giftblock:hover{
+    opacity: 0.5;
+}
+
+.section3{
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nov{
+    width: 196px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sifri{
+    width: 196px;
+    height: 158px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lalezar;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.soten{
+    width: 196px;
+    height: 68px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.img{
+    width: 256px;
+    height: 335px;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 100px;
+}
+
+.txt{
+    margin-left: 200px;
+    width: 95px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    align-items: center;
+}
+
+.genretext{
+    width: 256px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.img2{
+    width: 256px;
+    height: 335px;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 36px;
+}
+
+.txt1{
+    color: #000;
+    font-family: Kurale;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.rubl{
+    margin-top: 3px;
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    background: url(images/image-17.png);
+}
+
+.txt2{
+    color: #9D9D9D;
+    font-family: Kurale;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blackbox{
+    margin-top: 60px;
+    width: 100%;
+    height: 197px;
+    flex-shrink: 0;
+    background: #373737;
+}
+
+.podvaltextbel{
+    padding-top: 140px;
+    margin-left: 30px;
+    width: 256px;
+    height: 17px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 15px; /* 62.5% */
+}
+
+.pososnmiutext{
+    margin-left: 30px;
+    width: 272px;
+    color: #A1A1A1;
+    font-family: Kurale;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.konturbox{
+    margin-left: 600px;
+    width: 256px;
+    height: 30px;
+    flex-shrink: 0;
+    border: 1px solid #DFDFDF;
+    background: rgba(217, 217, 217, 0.00);
+}
+
+.belbox{
+    margin-left: 75px;
+    width: 196px;
+    height: 30px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.podpistext{
+    color: #484848;
+    font-family: Kurale;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 93.75% */
+}
+
+.telega{
+    margin-left: 20px;
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    background: url(images/image-11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.vk{
+    margin-left: 20px;
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    background: url(images/image-13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.telega:hover{
+    filter: blur(5px);
+}
+
+.vk:hover{
+    filter: blur(5px);
+}
+
+.odezd{
+    margin-left: 60px;
+    margin-top: 120px;
+    width: 112px;
+    height: 47px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.opisania{
+    width: 742px;
+    height: 130px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align:justify;
+    margin-left: 60px;
+}
+
+.katetere{
+    width: 229px;
+    height: 305px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.katetere:hover{
+    opacity: 0.5;
+}
+
+.podteks{
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.asd{
+    width: 218px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #ABABAB;
+    font-family: Kurale;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.linepod{
+    width: 412px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.textkategor{
+    width: 188px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kurale;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.strelka{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.imgg{
+    width: 408px;
+    height: 548px;
+    flex-shrink: 0;
+    background: url(images/image-27.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.strelkanalevo{
+    width: 30px;
+    height: 31px;
+    flex-shrink: 0;
+    background: url(images/image-36.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.txtstran{
+    color: #000;
+    font-family: Kurale;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.levooo{
+    width:156px;
+    height:30px;
+    flex-shrink: 0;
+    background: url(images/1212.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pravooo{
+    width:156px;
+    height:30px;
+    flex-shrink: 0;
+    background: url(images/1313.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pravooo:hover{
+    transform: translateX(50px);
+}
+
+.levooo:hover{
+    transform: translateX(-50px);
+}
+.asa{
+    color: #ABABAB;
+    font-family: Kurale;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+.whitebox{
+    width: 100%;
+    height: 751px;
+    flex-shrink: 0;
+}
+
+.text1{
+    width: 605px;
+    height: 47px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.text2{
+    color: #939393;
+    font-family: K2D;
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.serbox{
+    width: 196px;
+    height: 49px;
+    flex-shrink: 0;
+    background: #D2D2D2;
+}
+
+.text3{
+    color: #000;
+    font-family: Kurale;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 62.5% */
+}
